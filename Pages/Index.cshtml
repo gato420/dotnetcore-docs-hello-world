@@ -4,10 +4,59 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Hello ꓘ's from ISCTE, tudo baril?<br>
-Apostem €50 no Tottenham</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building pussy lips</a>.</p>
-    <hr />
-    <div>Host operating system: @Model.OSVersion</div>
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cat Lovers' Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        nav {
+            background-color: #666;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            width: 30%;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Cat Lovers' Website</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+    <div class="container">
+        <h2>Welcome to our Cat Lovers' Website</h2>
+        <p>This website is dedicated to all the cat enthusiasts out there. Here, you can find information, stories, and adorable pictures of our feline friends.</p>
+    </div>
+</body>
+</html>
